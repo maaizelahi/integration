@@ -1,4 +1,4 @@
-openapi: 3.0.2
+openapi: 3.0.3
 info:
     title: "OpenAPI Sample"
     version: "1.0"
@@ -489,7 +489,7 @@ components:
                 type: string
                 format: uuid
             required: true
-    securitySchemes
+    securitySchemes:
         BasicAuth:
             type: http
             scheme: basic
