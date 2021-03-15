@@ -52,14 +52,3 @@ components:
           type: string
         tag:
           type: string
-    Error:
-      type: object
-      required:
-        - code
-        - message
-      properties:
-        code:
-          type: integer
-          format: int32
-        message:
-          type: string
